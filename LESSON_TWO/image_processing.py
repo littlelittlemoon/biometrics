@@ -5,7 +5,14 @@ from scipy import signal
 from PIL import Image
 from PIL import ImageEnhance
 os.chdir('./picture')
-
+"""
+图片处理函数
+----
+图片由程序给出
+根据提示输入将要对图片进行什么处理, 以及处理程度参数
+程序会依次展示出原始图和处理后的图片
+最后将处理后的图片存储到当前目录的picture文件夹下, 存储名称为:out.jpg
+"""
 def imageEnhanceProcess(image):
     original_image_array = np.asarray(image)
     print('original image array', original_image_array)
