@@ -1,7 +1,4 @@
-# biometrics
-用于记录之前在新加坡学习的生物识别课程的内容和自己在此基础上做的一些补充
-
-## Summary
+# Summary
 * Intro to biometrics + pattern recognition; identification vs verification; different types of biometrics;
 * Pattern recognition tutorial + hands-on
 * Python overview, basic grammar and usage
